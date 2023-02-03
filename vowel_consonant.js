@@ -2,6 +2,7 @@
 
 const findVowelOrNot = () => {
   let char = "b";
+  char = char.toLocaleLowerCase();
   if (
     char === "a" ||
     char === "e" ||
