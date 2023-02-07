@@ -14,8 +14,8 @@ Promise.all([recordVideoOne, recordVideoTwo, recordVideoThree]).then(
   }
 );
 
-// Promise.race([recordVideoOne, recordVideoTwo, recordVideoThree]).then(
-//   (messages) => {
-//     console.log(messages);
-//   }
-// );
+Promise.race([recordVideoOne, recordVideoTwo, recordVideoThree]).then(
+  (messages) => {
+    console.log(messages);
+  }
+);
